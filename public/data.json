@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2026-03-01T07:49:00.000Z",
+  "budget": {
+    "total": 100,
+    "spent": 0,
+    "currency": "USD"
+  },
+  "agents": [
+    { "id": "main", "name": "Marvis", "role": "Orchestrator", "emoji": "🧠", "model": "claude-sonnet-4-6", "status": "active" },
+    { "id": "sales", "name": "Sable", "role": "Sales Agent", "emoji": "💼", "model": "claude-sonnet-4-6", "status": "idle" },
+    { "id": "marketing", "name": "Maya", "role": "Marketing Agent", "emoji": "📣", "model": "claude-sonnet-4-6", "status": "idle" },
+    { "id": "research", "name": "Rex", "role": "Research Agent", "emoji": "🔍", "model": "claude-sonnet-4-6", "status": "idle" },
+    { "id": "aso", "name": "Aria", "role": "ASO Agent", "emoji": "📱", "model": "claude-sonnet-4-6", "status": "idle" },
+    { "id": "finance", "name": "Vault", "role": "Finance Guardian", "emoji": "🔐", "model": "claude-haiku", "status": "idle" },
+    { "id": "mission-control", "name": "Nexus", "role": "Mission Control", "emoji": "🛰️", "model": "claude-haiku", "status": "idle" },
+    { "id": "qc", "name": "Vera", "role": "QC Agent", "emoji": "✅", "model": "claude-haiku", "status": "idle" },
+    { "id": "twitter", "name": "Flint", "role": "Twitter Agent", "emoji": "🔥", "model": "claude-sonnet-4-6", "status": "idle" },
+    { "id": "linkedin", "name": "Archer", "role": "LinkedIn Agent", "emoji": "🎯", "model": "claude-sonnet-4-6", "status": "idle" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Ship Projects → Sell Immediately", "status": "pending", "priority": "high" },
+    { "id": 2, "title": "Team Training on OpenClaw", "status": "pending", "priority": "high" },
+    { "id": 3, "title": "Write Execution Plan (Alpesh requirement)", "status": "pending", "priority": "high" },
+    { "id": 4, "title": "Proposal Generator Agent", "status": "not-started", "priority": "medium" },
+    { "id": 5, "title": "Sales Closer Agent", "status": "not-started", "priority": "medium" },
+    { "id": 6, "title": "YouTube Podcast — AI Agenting", "status": "not-started", "priority": "medium" },
+    { "id": 7, "title": "Mission Control Dashboard", "status": "in-progress", "priority": "high" },
+    { "id": 8, "title": "Construction OS", "status": "backlog", "priority": "low" },
+    { "id": 9, "title": "GTM Strategy", "status": "not-started", "priority": "medium" }
+  ],
+  "activity": [
+    { "time": "2026-03-01T07:49:00Z", "agent": "Marvis", "action": "Mission Control dashboard build started" },
+    { "time": "2026-03-01T05:30:00Z", "agent": "Marvis", "action": "MEMORY.md created and synced to Obsidian" },
+    { "time": "2026-03-01T05:00:00Z", "agent": "Marvis", "action": "HEARTBEAT.md activated with Mission Control checklist" },
+    { "time": "2026-02-28T07:15:00Z", "agent": "Marvis", "action": "OpenClaw updated to v2026.2.26" },
+    { "time": "2026-02-28T06:00:00Z", "agent": "Marvis", "action": "OIP v1.0 ingested — operator context loaded" }
+  ]
+}
